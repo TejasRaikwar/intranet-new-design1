@@ -25,7 +25,7 @@
 .body-main-container {}
 
 .layer {
-    padding: 1rem 4rem;
+    padding: 2rem 4rem;
     box-sizing: border-box;
 }
 
@@ -102,10 +102,12 @@
     justify-content: center;
     text-wrap: wrap;
 }
+
 .inner-right .block-container>div {
     width: 50%;
     /* background-color: red; */
 }
+
 .block-container>div:hover {
     cursor: pointer;
 }
@@ -373,31 +375,177 @@
     border-radius: 10px;
 }
 
-.bday-slider-container{
+.bday-slider-container {
     width: 100%;
     height: 25rem;
 }
+
 .bday-slider>div {
     width: 100%;
     height: 100%;
 }
-.bday-slider>div img{
+
+.bday-slider>div img {
     width: 100%;
     height: 25rem;
     border-radius: 10px;
 }
 
-.forth-layer{
+.forth-layer {
     background-color: #5e8d4e;
 }
-.container1{
+
+.container1 {
     display: flex;
     gap: 2rem;
     justify-content: space-between;
 }
-.container1>div{
+
+.container1>div {
     flex: 0 0 50%;
     height: 25rem;
     background-color: white;
     border-radius: 10px;
+}
+
+
+.search-cont {
+    height: 5rem;
+}
+
+.emp-list-cont {
+    height: calc(100%-5rem);
+}
+
+.emp-list {
+    list-style-type: none;
+    padding: 0.5rem 3rem;
+}
+
+.emp-list li {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.emp-list li:not(:last-of-type) {
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.emp-pic {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+
+}
+
+.emp-pic img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.emp-other {
+    padding-left: 1rem;
+    width: 85%;
+}
+
+.emp-name {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.des {
+    display: flex;
+    justify-content: space-between;
+}
+
+.des p {
+    color: rgb(104, 104, 104);
+}
+
+.des>div {
+    display: flex;
+    align-items: center;
+}
+
+.des>div i {
+    margin: 0 10px;
+}
+
+.des>div i:first-of-type {
+    font-size: 18px;
+}
+
+
+
+/* footer */
+footer {
+    padding: 1rem 2rem;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>div:first-of-type {
+    color: #6f945a;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+footer>div:last-of-type {
+    display: flex;
+    gap: 1rem;
+}
+
+footer>div:last-of-type div {
+    background-color: #6f945a;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+footer>div:last-of-type div i {
+    color: white;
+    font-size: 20px;
+}
+
+.first-layer .person-details {
+    top: 3rem;
+    left: 5rem;
+}
+
+.person-details {
+    background-color: #eaeced;
+    /* height: 3.5rem; */
+    height: 56px !important;
+    width: 250px !important;
+    position: absolute;
+    z-index: 10;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    left: 1rem;
+}
+.person-details img {
+    border-radius: 50% !important;
+}
+.person-details .emp-name1 {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.person-details .time-n-date {
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.mem-container .person-details{
+    position: relative !important;
+    bottom: 5rem;
 }
