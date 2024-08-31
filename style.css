@@ -504,8 +504,8 @@ footer>div:last-of-type {
 
 footer>div:last-of-type div {
     background-color: #6f945a;
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
