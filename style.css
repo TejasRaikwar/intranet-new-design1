@@ -411,7 +411,7 @@
 
 .search-cont {
     height: 5rem;
-    background-color: red;
+    background-color: rgb(192, 192, 192);
     display: flex;
     align-items: center;justify-content: center;
 }
