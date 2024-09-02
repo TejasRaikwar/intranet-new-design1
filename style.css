@@ -1,5 +1,7 @@
 :root{
     --red : #ed1c24;
+    --black : #222222;
+    --gray : #f1f1f1;
 }
 * {
     margin: 0;
@@ -19,7 +21,8 @@ i{
     color: rgb(73, 73, 73);
 }
 .Pale-Goldenrod {
-    background-color: #e5d9b6;
+    background-color: var(--gray);
+    /* background-color: #e5bdbd; */
 }
 
 .no-flex {
@@ -29,7 +32,7 @@ i{
 .block-heading {
     text-transform: uppercase !important;
     display: flex;
-    /* align-items: center; */
+    /* align-items: center; */  
 }
 
 
@@ -69,14 +72,15 @@ i{
 
 .slider-bottom {
     height: 6.3rem;
-    background-color: #e6ebd9;
+    background-color: var(--gray);
     padding: 10px 15px;
     box-sizing: border-box;
     border-radius: 0 0 8px 8px;
 }
 
 .slider-hd {
-    color: #6f945a;
+    /* color: #6f945a; */
+    color: var(--red);
     font-weight: 600;
     letter-spacing: 1px;
     padding: 5px 0;
@@ -116,7 +120,8 @@ i{
 
 .block-container i{
     font-size: 25px;
-    color: #5f8f54;
+    /* color: #5f8f54; */
+    color: var(--red);
 }
 .inner-right .block-container>div {
     width: 50%;
@@ -140,7 +145,8 @@ i{
 }
 
 .heading {
-    color: #6f945a;
+    /* color: #6f945a; */
+    color: var(--red);
     font-weight: 600;
     letter-spacing: 1px;
     display: flex;
@@ -214,14 +220,16 @@ i{
 .vis-count {
     text-align: center;
     font-size: 2.5rem;
-    color: #6f945a;
+    /* color: #6f945a; */
+    color: var(--red);
 }
 
 .vis-note {
     text-align: center;
     font-size: 12px;
     font-weight: 600;
-    color: #6f945a;
+    color: var(--red);
+    /* color: #6f945a; */
     letter-spacing: 1px;
 }
 
@@ -230,7 +238,8 @@ i{
 }
 
 .read-more-btn {
-    background-color: #5f8f54;
+    background-color: var(--red);
+    /* background-color: #5f8f54; */
     color: white;
     padding: 10px 20px;
     border-radius: 18px;
@@ -277,7 +286,7 @@ i{
 
 .active {
     color: white !important;
-    background-color: #255632 !important;
+    background-color: var(--red) !important;
 }
 
 .carousel-btns>button {
@@ -345,7 +354,8 @@ i{
 
 .links-list>li i {
     margin-right: 1rem;
-    color: #5f8f54;
+    /* color: #5f8f54; */
+    color: var(--red);
 }
 
 .mem-ann-cont {
@@ -367,7 +377,8 @@ i{
 
 .upld-btn {
     padding: 8px 15px;
-    background-color: #255632;
+    background-color: var(--red);
+    /* background-color: #255632; */
     border: none;
     color: white;
     border-radius: 10px;
@@ -407,7 +418,8 @@ i{
 }
 
 .forth-layer {
-    background-color: #5e8d4e;
+    background-color: var(--red);
+    /* background-color: #5e8d4e; */
 }
 
 .container1 {
@@ -507,7 +519,8 @@ footer {
 }
 
 footer>div:first-of-type {
-    color: #6f945a;
+    /* color: #6f945a; */
+    color: var(--red);
     font-weight: 600;
     letter-spacing: 0.5px;
 }
@@ -518,7 +531,8 @@ footer>div:last-of-type {
 }
 
 footer>div:last-of-type div {
-    background-color: #6f945a;
+    /* background-color: #6f945a; */
+    background-color: var(--red);
     height: 2.5rem;
     width: 2.5rem;
     display: flex;
