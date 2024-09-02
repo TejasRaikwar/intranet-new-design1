@@ -1,3 +1,6 @@
+:root{
+    --red : #ed1c24;
+}
 * {
     margin: 0;
     padding: 0;
@@ -104,11 +107,17 @@ i{
     border: 1px solid gray;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
     text-wrap: wrap;
 }
 
+.block-container i{
+    font-size: 25px;
+    color: #5f8f54;
+}
 .inner-right .block-container>div {
     width: 50%;
     /* background-color: red; */
@@ -558,3 +567,4 @@ footer>div:last-of-type div i {
     position: relative !important;
     bottom: 5rem;
 }
+
