@@ -201,7 +201,7 @@ i {
     width: 100%;
     padding: 5px;
     margin: 10px 0;
-    color: #878785;
+    color: #5e5e5e;
     text-transform: uppercase;
     background-color: white;
     border: none;
@@ -424,13 +424,15 @@ i {
     display: flex;
     gap: 2rem;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .container1>div {
-    flex: 0 0 50%;
+    flex: 0 0 48%;
     height: 25rem;
     background-color: white;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 
@@ -467,7 +469,6 @@ i {
     height: 3.2rem;
     width: 3.2rem;
     border-radius: 50%;
-
 }
 
 .emp-pic img {
@@ -478,13 +479,13 @@ i {
 
 .emp-other {
     padding-left: 1rem;
-    width: 85%;
+    width: 90%;
 }
 
 .emp-name {
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .des {
@@ -555,8 +556,7 @@ footer>div:last-of-type div i {
 
 .person-details {
     background-color: #eaeced;
-    /* height: 3.5rem; */
-    height: 56px !important;
+    height: 53px !important;
     width: 250px !important;
     position: absolute;
     z-index: 10;
@@ -654,8 +654,53 @@ footer>div:last-of-type div i {
     font-size: 15px;
 }
 
-.right-border{
+.right-border {
     background-color: rgb(194, 193, 193);
     height: 18px;
     width: 1.5px;
 }
+
+
+.calender-container,
+.recog-container {
+    height: 85%;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 21.5rem;
+}
+
+.recog-container {
+    box-sizing: border-box;
+    width: 41.8rem;
+}
+
+.slide-prof {
+    display: flex;
+    align-items: center;
+}
+
+.recog-slide {
+    padding: 1rem;
+    height: 19.5rem !important;
+    overflow: hidden;
+}
+
+.b-date {
+    margin-top: 10px;
+    margin-left: 8px;
+    /* color: #2c5425; */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.b-date i {
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.bday-text {
+    margin-top: 1rem;
+    line-height: 18px;
+}
+

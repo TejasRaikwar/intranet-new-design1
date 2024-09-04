@@ -405,12 +405,76 @@
               <div class="heading-logo-cont"><i class="fa-solid fa-sun gray"></i></div>CALENDER
               </p>
             </div>
+            <div class="calender-container">
+              <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=UTC&bgcolor=%23ffffff&showTitle=0&showNav=0&showPrint=0&src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043" style="border:solid 1px #777" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+            </div>
           </div>
           <div>
             <div class="heading heading-p border-bottom">
               <p class="block-heading">
-              <div class="heading-logo-cont"><i class="fa-solid fa-sun gray"></i></div>COMPANY DIRECTORY
+              <div class="heading-logo-cont" ><i class="fa-solid fa-sun gray"></i></div>RECOGNITION AND AWARDS
               </p>
+            </div>
+            <div class="recog-container">
+              <div class="recog-slider">
+                <!-- slider slide -->
+                <div class="recog-slide">
+                  <div class="slide-prof">
+                    <div class="emp-pic"><img src="./istockphoto-1386479313-612x612.jpg" alt=""></div>
+                    <div class="emp-other">
+                      <div class="emp-name">Lorem Epsum</div>
+                      <div class="emp-designation">
+                        <div class="des">
+                          <p>Bussiness Analyst</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-date">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    July 16, 2024
+                  </div>
+                  <div class="bday-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                    consequuntur doloremque. Laboriosam dolorum a, quo quia corrupti
+                    mollitia veritatis perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores sapiente illo nostrum mollitia quis minus ducimus, ut, voluptatibus architecto ipsum. Voluptates illum veniam tenetur labore quidem repellat tempore omnis.
+                  </div>
+                  <div class="bday-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                    consequuntur doloremque. Laboriosam dolorum a, quo quia corrupti
+                    mollitia veritatis perferendis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reprehenderit mollitia accusantium corporis vitae beatae suscipit, consequuntur, ab quia inventore delectus dolores, ut velit rerum vel dignissimos quod nisi necessitatibus!lore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint eveniet, voluptatibus quasi blanditiis distinctio deleniti consequuntur exercitationem id autem, veniam modi totam quas, odio accusantium et nulla excepturi. Sequi, asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores molestiae eaque dolorum, suscipit labore ea sit dignissimos eius excepturi. Necessitatibus eligendi sed sint error est temporibus dolore similique minus illum.
+                  </div>
+                </div>
+                <div class="recog-slide">
+                  <div class="slide-prof">
+                    <div class="emp-pic"><img src="./istockphoto-1386479313-612x612.jpg" alt=""></div>
+                    <div class="emp-other">
+                      <div class="emp-name">Lorem Epsum</div>
+                      <div class="emp-designation">
+                        <div class="des">
+                          <p>Bussiness Analyst</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-date">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    July 16, 2024
+                  </div>
+                  <div class="bday-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                    consequuntur doloremque. Laboriosam dolorum a, quo quia corrupti
+                    mollitia veritatis perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores sapiente illo nostrum mollitia quis minus ducimus, ut, voluptatibus architecto ipsum. Voluptates illum veniam tenetur labore quidem repellat tempore omnis.
+                  </div>
+                  <div class="bday-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                    consequuntur doloremque. Laboriosam dolorum a, quo quia corrupti
+                    mollitia veritatis perferendis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reprehenderit mollitia accusantium corporis vitae beatae suscipit, consequuntur, ab quia inventore delectus dolores, ut velit rerum vel dignissimos quod nisi necessitatibus!lore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint eveniet, voluptatibus quasi blanditiis distinctio deleniti consequuntur exercitationem id autem, veniam modi totam quas, odio accusantium et nulla excepturi. Sequi, asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores molestiae eaque dolorum, suscipit labore ea sit dignissimos eius excepturi. Necessitatibus eligendi sed sint error est temporibus dolore similique minus illum.
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -424,6 +488,12 @@
       <div><i class="fa-brands fa-twitter"></i></div>
     </div>
   </footer>
+  <style>
+    
+#calendarTitle{
+    color: red !important;
+}
+  </style>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
   <script>
@@ -447,6 +517,23 @@
       });
     });
 
+
+    $(document).ready(function () {
+        $(".recog-slider").slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2000,
+          dots: true,
+          arrows: false,
+        });
+      });
+
+      $(document).ready(function(){
+        console.log(document.getElementById("calendarTitle"))
+        console.log("hi")
+      })
   </script>
 </body>
 
