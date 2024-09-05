@@ -591,11 +591,12 @@ footer>div:last-of-type div i {
     border-radius: 10px 10px 0 0;
 }
 
-.slider-top-img img{
+.slider-top-img img {
     border-radius: 10px 10px 0 0;
     height: 100%;
     width: 100%;
 }
+
 .slider-text {
     background-color: white;
     height: 7.45rem;
@@ -603,6 +604,7 @@ footer>div:last-of-type div i {
     text-align: justify;
     overflow: hidden;
     color: #4b4b50;
+    overflow-y: scroll;
 }
 
 .slider-btm-btn {
@@ -702,8 +704,96 @@ footer>div:last-of-type div i {
     line-height: 18px;
 }
 
-@media (max-width:1050px){
-    .emp-mail{
+@media (max-width:1050px) {
+    .emp-mail {
         display: none;
+    }
+}
+
+
+@media (max-width:769px) {
+    .layer {
+        padding: 2rem;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .inner-left,
+    .inner-right {
+        width: 100%;
+    }
+    .inner-left{
+        padding-right: 0;
+    }
+    .inner-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .block-container-one {
+        gap: 5px !important;
+    }
+
+    .block-container-one>div {
+        width: 30% !important;
+    }
+
+    .first-layer .person-details {
+        left: 3rem;
+    }
+
+    .site-vis-container {
+        height: 9.7rem;
+        margin-top: 0 !important;
+    }
+
+    .vis-count-container {
+        height: 48%;
+    }
+
+    .slider-bottom {
+        line-height: 19px;
+    }
+
+    .Pale-Goldenrod .inner-right {
+        margin-top: 1rem;
+    }
+    .tools-container {
+        width: 100%;
+    }
+    .links-list-container {
+        padding: 0;
+    }
+
+    .links-list {
+        list-style-type: none;
+        display: flex;
+       
+    }
+
+    .links-list>li {
+        flex: 0 0 16.6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+    .links-list>li:not(:last-of-type) {
+        border-right: 1px solid rgb(230, 229, 229);
+        border-bottom: none;
+    }
+    .links-list>li i {
+        margin-right: 0;
+        color: var(--red);
+    }
+    .bdays-container{
+        width: 100%;
     }
 }
