@@ -701,3 +701,12 @@ footer>div:last-of-type div i {
     margin-top: 1rem;
     line-height: 18px;
 }
+
+@media (max-width:1050px){
+    .emp-list {
+        /* padding: 0.2rem 10px; */
+    }
+    .emp-mail{
+        display: none;
+    }
+}
