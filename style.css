@@ -100,13 +100,13 @@ i {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .block-container>div {
     height: 9.4rem;
-    width: 29%;
-    border: 1px solid gray;
+    width: 30%;
+    border: 1px solid rgb(184, 184, 184);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@ i {
     margin-top: 10px;
     flex-shrink: 1;
     width: 100%;
-    border: 1px solid gray;
+    border: 1px solid rgb(184, 184, 184);
     border-radius: 10px;
     padding: 15px;
     box-sizing: border-box;
@@ -156,8 +156,8 @@ i {
 
 .block-sub-heading {
     font-weight: 600;
-    margin: 10px 0;
-    height: 16px;
+    margin: 8px 0;
+    height: 19px;
     width: 100%;
     overflow: hidden;
     display: -webkit-box;
@@ -299,7 +299,11 @@ i {
     width: 2rem;
     height: 2rem;
     margin: 0 3px;
-    border: 1px solid black;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.carousel-btns i {
+    color: rgb(78, 78, 78);
 }
 
 .carousel-btns>button:hover {
@@ -344,6 +348,8 @@ i {
 
 .links-list>li {
     padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .links-list>li:not(:last-of-type) {
@@ -363,12 +369,12 @@ i {
 }
 
 .mem-container {
-    width: 44%;
+    width: 50%;
 }
 
 .ann-container {
-    width: 54%;
-    border: 1px solid gray;
+    width: 50%;
+    border: 1px solid rgb(184, 184, 184);
     border-radius: 10px;
 }
 
@@ -602,9 +608,9 @@ footer>div:last-of-type div i {
     height: 7.45rem;
     padding: 0 10px;
     text-align: justify;
-    overflow: hidden;
-    color: #4b4b50;
+    color: #5d5d5f;
     overflow-y: scroll;
+    font-size: 15px;
 }
 
 .slider-btm-btn {
@@ -634,6 +640,10 @@ footer>div:last-of-type div i {
     box-sizing: border-box;
     font-size: 18px;
     background-color: white;
+    height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 .slick-slide {
@@ -663,13 +673,43 @@ footer>div:last-of-type div i {
     width: 1.5px;
 }
 
-.calender-container,
+.management-container,
 .recog-container {
-    height: 85%;
     border-radius: 0 0 10px 10px;
     width: 100%;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     height: 21.5rem;
+}
+
+.management-in-cont {
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    padding: 1rem 2rem;
+}
+
+.management-grid {
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(2,48.8%);
+    grid-template-rows: repeat(2, 47%);
+    gap: 0.7rem;
+}
+
+.management-grid>div {
+    background-color: rgb(184, 184, 184);
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.management-grid>div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
 }
 
 .recog-container {
@@ -704,7 +744,13 @@ footer>div:last-of-type div i {
     line-height: 18px;
 }
 
-@media (max-width:1050px) {
+@media (max-width:1280px) {
+    .links-list-container {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width:1330px) {
     .emp-mail {
         display: none;
     }
@@ -725,9 +771,11 @@ footer>div:last-of-type div i {
     .inner-right {
         width: 100%;
     }
-    .inner-left{
+
+    .inner-left {
         padding-right: 0;
     }
+
     .inner-right {
         width: 100%;
         display: flex;
@@ -763,9 +811,11 @@ footer>div:last-of-type div i {
     .Pale-Goldenrod .inner-right {
         margin-top: 1rem;
     }
+
     .tools-container {
         width: 100%;
     }
+
     .links-list-container {
         padding: 0;
     }
@@ -773,7 +823,7 @@ footer>div:last-of-type div i {
     .links-list {
         list-style-type: none;
         display: flex;
-       
+
     }
 
     .links-list>li {
@@ -785,15 +835,18 @@ footer>div:last-of-type div i {
         gap: 1rem;
         text-align: center;
     }
+
     .links-list>li:not(:last-of-type) {
         border-right: 1px solid rgb(230, 229, 229);
         border-bottom: none;
     }
+
     .links-list>li i {
         margin-right: 0;
         color: var(--red);
     }
-    .bdays-container{
+
+    .bdays-container {
         width: 100%;
     }
 }
