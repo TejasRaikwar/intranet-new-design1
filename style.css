@@ -590,7 +590,6 @@ footer>div:last-of-type div i {
 
 .slider-top-img {
     height: 10rem;
-    /* background-image: url(./1504477.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -607,7 +606,7 @@ footer>div:last-of-type div i {
     background-color: white;
     height: 7.45rem;
     padding: 0 10px;
-    text-align: justify;
+    /* text-align: justify; */
     color: #5d5d5f;
     overflow-y: scroll;
     font-size: 14px;
