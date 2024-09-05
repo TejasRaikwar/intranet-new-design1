@@ -63,7 +63,7 @@ i {
 
 .slider-img {
     height: 17rem;
-    background-image: url("./1504477.jpg");
+    background-image: url("./abt-best-art-pic_09.jpg");
     border-radius: 8px 8px 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -584,13 +584,18 @@ footer>div:last-of-type div i {
 
 .slider-top-img {
     height: 10rem;
-    background-image: url(./1504477.jpg);
+    /* background-image: url(./1504477.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px 10px 0 0;
 }
 
+.slider-top-img img{
+    border-radius: 10px 10px 0 0;
+    height: 100%;
+    width: 100%;
+}
 .slider-text {
     background-color: white;
     height: 7.45rem;
