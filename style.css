@@ -195,43 +195,32 @@ i {
     justify-content: center;
 }
 
-#siteVisitors {
+.policy-container {
     width: 100%;
-    padding: 5px;
-    margin: 10px 0;
-    color: #5e5e5e;
-    text-transform: uppercase;
-    background-color: white;
-    border: none;
-    border-radius: 3px;
-    filter: drop-shadow(0 2px 2px rgba(140, 153, 134, 0.685));
-    outline: none;
-    height: 2rem;
-    font-weight: 600;
+    height: 90%;
+    padding: 15px 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
-.vis-count-container {
+.policy-container ul {
+    list-style-type: none;
+}
+.policy-container li{
+    padding: 0.7rem 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 60%;
+}
+.policy-container li:not(:last-of-type){
+   border-bottom: 1px solid rgb(184, 184, 184);
 }
 
-.vis-count {
-    text-align: center;
-    font-size: 2.5rem;
-    color: var(--red);
+.policy-container li>i{
+    font-size: 22px;
+    margin-right: 1rem;
+    color: rgb(97, 96, 96);
 }
 
-.vis-note {
-    text-align: center;
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--red);
-
-    letter-spacing: 1px;
-}
 
 .btn-container {
     text-align: right;
@@ -606,7 +595,7 @@ footer>div:last-of-type div i {
     background-color: white;
     height: 7.45rem;
     padding: 0 10px;
-    /* text-align: justify; */
+    text-align: justify;
     color: #5d5d5f;
     overflow-y: scroll;
     font-size: 14px;
@@ -693,7 +682,7 @@ footer>div:last-of-type div i {
     width: 100%;
     overflow-y: auto;
     display: grid;
-    grid-template-columns: repeat(2,48.8%);
+    grid-template-columns: repeat(2, 48.8%);
     grid-template-rows: repeat(2, 47%);
     gap: 0.7rem;
 }
@@ -705,7 +694,7 @@ footer>div:last-of-type div i {
     border-radius: 3px;
 }
 
-.management-grid>div img{
+.management-grid>div img {
     height: 100%;
     width: 100%;
     border-radius: 3px;
