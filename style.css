@@ -43,7 +43,7 @@ i {
 
 .container {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .inner-left {
@@ -610,7 +610,7 @@ footer>div:last-of-type div i {
     text-align: justify;
     color: #5d5d5f;
     overflow-y: scroll;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .slider-btm-btn {
@@ -692,7 +692,7 @@ footer>div:last-of-type div i {
     align-self: center;
     height: 100%;
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
     display: grid;
     grid-template-columns: repeat(2,48.8%);
     grid-template-rows: repeat(2, 47%);
