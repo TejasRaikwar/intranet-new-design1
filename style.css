@@ -25,7 +25,6 @@ i {
 
 .Pale-Goldenrod {
     background-color: var(--gray);
-    /* background-color: #e5bdbd; */
 }
 
 .no-flex {
@@ -35,9 +34,7 @@ i {
 .block-heading {
     text-transform: uppercase !important;
     display: flex;
-    /* align-items: center; */
 }
-
 
 .layer {
     padding: 2rem 4rem;
@@ -82,7 +79,6 @@ i {
 }
 
 .slider-hd {
-    /* color: #6f945a; */
     color: var(--red);
     font-weight: 600;
     letter-spacing: 1px;
@@ -107,7 +103,6 @@ i {
     gap: 1.5rem;
 }
 
-
 .block-container>div {
     height: 9.4rem;
     width: 29%;
@@ -126,9 +121,13 @@ i {
     color: var(--red);
 }
 
+.block-container p {
+    text-align: center;
+    word-break: break-word;
+}
+
 .inner-right .block-container>div {
     width: 50%;
-    /* background-color: red; */
 }
 
 .block-container>div:hover {
@@ -148,7 +147,6 @@ i {
 }
 
 .heading {
-    /* color: #6f945a; */
     color: var(--red);
     font-weight: 600;
     letter-spacing: 1px;
@@ -223,7 +221,6 @@ i {
 .vis-count {
     text-align: center;
     font-size: 2.5rem;
-    /* color: #6f945a; */
     color: var(--red);
 }
 
@@ -232,7 +229,7 @@ i {
     font-size: 12px;
     font-weight: 600;
     color: var(--red);
-    /* color: #6f945a; */
+
     letter-spacing: 1px;
 }
 
@@ -428,13 +425,12 @@ i {
 }
 
 .container1>div {
-    flex: 0 0 48%;
+    width: 48%;
     height: 25rem;
     background-color: white;
     border-radius: 10px;
     box-sizing: border-box;
 }
-
 
 .search-cont {
     height: 5rem;
@@ -506,11 +502,13 @@ i {
     margin: 0 10px;
 }
 
+.des>div i:hover {
+    cursor: pointer;
+}
+
 .des>div i:first-of-type {
     font-size: 18px;
 }
-
-
 
 /* footer */
 footer {
@@ -522,7 +520,6 @@ footer {
 }
 
 footer>div:first-of-type {
-    /* color: #6f945a; */
     color: var(--red);
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -534,7 +531,6 @@ footer>div:last-of-type {
 }
 
 footer>div:last-of-type div {
-    /* background-color: #6f945a; */
     background-color: var(--red);
     height: 2.5rem;
     width: 2.5rem;
@@ -660,7 +656,6 @@ footer>div:last-of-type div i {
     width: 1.5px;
 }
 
-
 .calender-container,
 .recog-container {
     height: 85%;
@@ -672,7 +667,6 @@ footer>div:last-of-type div i {
 
 .recog-container {
     box-sizing: border-box;
-    width: 41.8rem;
 }
 
 .slide-prof {
@@ -689,7 +683,6 @@ footer>div:last-of-type div i {
 .b-date {
     margin-top: 10px;
     margin-left: 8px;
-    /* color: #2c5425; */
     font-size: 14px;
     font-weight: bold;
 }
@@ -703,4 +696,3 @@ footer>div:last-of-type div i {
     margin-top: 1rem;
     line-height: 18px;
 }
-
