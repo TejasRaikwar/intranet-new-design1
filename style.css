@@ -218,7 +218,7 @@ i {
 }
 
 .policy-container li>p {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .policy-container li:not(:last-of-type) {
@@ -226,7 +226,7 @@ i {
 }
 
 .policy-container li>i {
-    font-size: 22px;
+    font-size: 21px;
     margin-right: 1rem;
     color: rgb(97, 96, 96);
 }
